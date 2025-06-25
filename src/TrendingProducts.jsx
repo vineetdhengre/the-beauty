@@ -13,7 +13,7 @@ export default function TrendingProducts() {
     const serumProducts = [
         {
             name: "Acne Serum",
-            image: "../public/assets/trend_products/prod-1.jpg",
+            image: "../assets/trend_products/prod-1.jpg",
             gradient: "linear-gradient(120deg, #aae0e1 0%, #d2f0e9 100%)",
             badge: "Save 9%",
             rating: 3.7,
@@ -22,7 +22,7 @@ export default function TrendingProducts() {
         },
         {
             name: "Advanced Antiaging Serum",
-            image: "../public/assets/trend_products/prod-2.jpg",
+            image: "../assets/trend_products/prod-2.jpg",
             gradient: "linear-gradient(120deg, #d1eed2 0%, #b6e2ad 100%)",
             badge: "Save 5%",
             rating: 4.7,
@@ -31,7 +31,7 @@ export default function TrendingProducts() {
         },
         {
             name: "Brightening Serum",
-            image: "../public/assets/trend_products/prod-3.jpg",
+            image: "../assets/trend_products/prod-3.jpg",
             gradient: "linear-gradient(120deg, #ffe4ca 0%, #ffd3c7 100%)",
             badge: "Save 15%",
             rating: 4.8,
@@ -40,7 +40,7 @@ export default function TrendingProducts() {
         },
         {
             name: "Super Shield BB Serum",
-            image: "../public/assets/trend_products/prod-4.jpg",
+            image: "../assets/trend_products/prod-4.jpg",
             gradient: "linear-gradient(120deg,#f9cae8 0%,#fcdbee 100%)",
             badge: "Save 14%",
             rating: 4.7,

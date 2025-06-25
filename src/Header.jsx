@@ -9,7 +9,7 @@ import { LuShoppingCart } from "react-icons/lu";
 
 export default function Header() {
 
-  const logoUrl = "../public/assets/logo.png"; // alt+ beauty
+  const logoUrl = "../assets/logo.png"; // alt+ beauty
 
   return (
     <>

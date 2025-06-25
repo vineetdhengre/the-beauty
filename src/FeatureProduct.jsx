@@ -25,12 +25,12 @@ const FeatureProduct = () => {
 
     ],
     thumbnails: [
-      "../public/assets/trend_products/prod-1.jpg",
-      "../public/assets/trend_products/prod-2.jpg",
-      "../public/assets/trend_products/prod-3.jpg",
-      "../public/assets/trend_products/prod-4.jpg",
-      "../public/assets/trend_products/prod-1.jpg",
-      "../public/assets/trend_products/prod-2.jpg"
+      "../assets/trend_products/prod-1.jpg",
+      "../assets/trend_products/prod-2.jpg",
+      "../assets/trend_products/prod-3.jpg",
+      "../assets/trend_products/prod-4.jpg",
+      "../assets/trend_products/prod-1.jpg",
+      "../assets/trend_products/prod-2.jpg"
     ],
     // sizes: [
     //   { name: "box-5", label: "Box of 5 Snacks" },

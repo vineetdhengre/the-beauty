@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 export default function Footer() {
-  const logoUrl = "../public/assets/logo.png"; // alt+ beauty
+  const logoUrl = "../assets/logo.png"; // alt+ beauty
   return (
     <footer className="bg-dark text-muted py-5 border-top mt-5">
       <div className="container text-light">

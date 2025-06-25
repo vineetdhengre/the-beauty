@@ -75,7 +75,7 @@ function SlidePanel({image, headline, plus}) {
 export default function MainSlider() {
   const slides = [
     {
-      image: "../public/assets/mainBan-1.jpg",
+      image: "../assets/mainBan-1.jpg",
       headline: (<>
         Smart and <span style={{fontFamily:'serif', fontStyle:'italic', color:'#a259bb'}}>Simplified Skincare</span><br/>
         <span style={{color:'#532881',fontFamily:'sans-serif'}}>for busy lives</span>
@@ -83,7 +83,7 @@ export default function MainSlider() {
       plus: '+',
     },
     {
-      image: "../public/assets/mainBan-2.jpg",
+      image: "../assets/mainBan-2.jpg",
       headline: (<>
         The <span style={{fontFamily:'serif',fontStyle:'italic',color:'#a259bb'}}>Dermatologist Designed</span><br/>
         multipurpose routine
@@ -91,7 +91,7 @@ export default function MainSlider() {
       plus: '+',
     },
     {
-      image: "../public/assets/mainBan-3.jpg",
+      image: "../assets/mainBan-3.jpg",
       headline: (<>
         Experience <span style={{fontFamily:'serif',fontStyle:'italic',color:'#a259bb'}}>All-in-One</span><br/>
         Radiance Skincare
