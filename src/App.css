@@ -1,0 +1,80 @@
+/* 
+
+/* Custom Navbar */
+
+.header-custom {
+    display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+}
+
+.navbar-custom {
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+    color: #3D2601;
+    text-transform: uppercase;
+}
+
+.navbar-brand img{
+    width: 120px;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-nav .nav-item {
+    list-style-type: none;
+}
+
+.nav-link {
+    color: black !important;
+    text-decoration: auto;
+}
+
+/* Order Now Button */
+.order-btn {
+    border: 2px solid black;
+    padding: 5px 15px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.order-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/* Mobile Responsive */
+@media (max-width: 991px) {
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        right: 15px;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .order-btn {
+        margin-top: 10px;
+    }
+}
