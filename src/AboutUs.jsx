@@ -4,7 +4,7 @@ import { RiSecurePaymentLine } from "react-icons/ri";
 import { FaShippingFast } from "react-icons/fa";
 
 export default function AboutUs() {
-    const bannerImage = "../public/assets/main-banner.jpg"
+    const bannerImage = "../assets/main-banner.jpg"
     return (
         <>
             <div className="container-fluid">
@@ -33,7 +33,7 @@ export default function AboutUs() {
                     {/* Left Column: Image */}
                     <div className="col-md-6 d-flex justify-content-center mb-4 mb-md-0 pt-4" >
                         <img
-                            src="../public/assets/about-image.jpg"
+                            src="../assets/about-image.jpg"
                             alt="Fresh Food"
                             className="img-fluid rounded"
                             style={{ maxHeight: "360px", objectFit: "cover", transform: "rotate(7deg)" }}
